@@ -17,7 +17,7 @@ class Scraper
      # course.description = post.css("p").text
       
    end
-  binding.pry
+ 
     def print_courses
     self.make_courses
     Course.all.each do |course|

@@ -19,7 +19,7 @@ class Scraper
     end
   end
   binding.pry
-Scraper.new.get_page
+
     def print_courses
     self.make_courses
     Course.all.each do |course|
